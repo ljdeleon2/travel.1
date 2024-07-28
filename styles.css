@@ -1,0 +1,191 @@
+/* General styles for all pages */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 0 15px;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+    border-bottom: 3px solid #ccc;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+nav li a.active {
+    background-color: #555;
+    color: white;
+}
+
+.container, main {
+    flex: 1;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.section, .welcome-section {
+    padding: 20px;
+    background: #fff;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section h2, .welcome-section h1, .welcome-section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section p, .welcome-section p {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 15px;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.landmark {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.landmark img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.landmark p {
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0px 0;
+    width: 100%;
+}
+
+footer a {
+    color: skyblue;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.info-section {
+    background-image: url('https://www.discoverpuertorico.com/sites/default/files/styles/horizontal/public/2019-04/NINAMM_Corozal_CorozalCentro-2.jpg?h=1ac49d38&itok=pSzBigk1');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    padding: 50px;
+    color: #000;
+    text-align: center;
+}
+
+.info-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.accommodation-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.accommodation-item img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.accommodation-info {
+    flex: 1;
+}
+
+.accommodation-info h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.show-prices {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    margin: 10px 0;
+    cursor: default;
+}
+
+.no-click {
+    pointer-events: none;
+}
+
+.show-prices:hover {
+    background-color: #ff9900;
+}
+
+.credit {
+    font-size: 0.9em;
+    margin-top: 10px;
+}

@@ -1,0 +1,5 @@
+<img src="images/alcalde.jpg" alt="Alcaldía de Corozal">
+<img src="images/monument.jpg" alt="Monumento Al Solado">
+<img src="images/bosque.png" alt="Bosque Estatal Monte Choca">
+<img src="images/backpackers-paradise.jpg" alt="Backpackers Paradise">
+<img src="images/js-cool-spot.jpg" alt="J's Cool Spot Backpacker Hostel">
